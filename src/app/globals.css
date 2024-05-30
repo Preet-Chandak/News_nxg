@@ -50,3 +50,16 @@ body {
     max-width: 100%;
   }
 }
+
+.hero-content {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.hero-content h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}

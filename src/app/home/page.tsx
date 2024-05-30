@@ -12,7 +12,7 @@ const Page: React.FC = () => {
   return (
     <>
       <Navbar />
-      <div className={styles.contentWrapper}>
+      <div className={ `${styles.contentWrapper} pt-16`} >
         <Hero />
         <br />
         <br />
