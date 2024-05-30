@@ -1,0 +1,53 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .navList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navList li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .main {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .article {
+    margin-bottom: 20px;
+  }
+  
+  .staffPicks,
+  .recommendedTopics {
+    margin-top: 20px;
+  }
+  
+  .aside {
+    margin-left: 20px;
+  }
+  .contentWrapper {
+    margin: 20px;
+    margin-left: 5%;  /* Adjust the value as needed */
+    margin-right: 5%; /* Adjust the value as needed */
+  }
